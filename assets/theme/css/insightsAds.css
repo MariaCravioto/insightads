@@ -1,0 +1,14 @@
+.borderAds {
+    align-content: center;
+    border: 2px double #B2BABB;
+    padding: 20px 5px;
+    text-align: center;
+    width: 215px;
+    margin-right: 10px;
+}
+.iconAds{
+  width: 80px;
+}
+.iconAds2{
+  width: 50px;
+}

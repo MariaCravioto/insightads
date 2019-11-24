@@ -1,5 +1,5 @@
 <?php
-$my_email = 'your@email.com';
+$my_email = 'hi@insightads.mx';
 
 $form_fullname = $_POST['fullname'];
 $form_email = $_POST['email'];
@@ -16,7 +16,7 @@ $status = mail($to,$subject,$txt,$headers);
 
 
 if($status){
-  $ress = array('status' => 'Thank you we will back to you ASAP!');
+  $ress = array('status' => '¡Gracias, te responderemos lo antes posible!');
 }else{
   $ress = array('status' => NULL);
 }

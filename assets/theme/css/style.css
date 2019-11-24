@@ -419,7 +419,7 @@ a.btn-video-play:hover:before {
   border: 0;
 }
 .navbar-op1 .navbar-brand {
-  background: #03C4B5;
+  background: #000000;
   position: absolute;
   height: 100%;
   z-index: 3;
@@ -456,7 +456,7 @@ a.btn-video-play:hover:before {
   content: "";
   left: -9000%;
   top: 0;
-  background: #03C4B5;
+  background: #000;
 }
 .navbar-op1 .navbar-header .navbar-toggle {
   margin-top: 20px;
@@ -1986,7 +1986,8 @@ textArea.form-flat {
   -ms-transition: all 0.3s ease 0s;
   opacity: 0.6;
   filter: alpha(opacity=60);
-  height: 40px;
+  height: 70px;
+  width: 150px;
 }
 .client-logos li a:hover img {
   opacity: 1;
